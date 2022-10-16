@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-width: 375px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body p{
+    font-size: 1.25rem;
+    color: rgba(136, 161, 196, 0.779)
+}
+
+main{
+    background-color: hsl(217, 54%, 11%);
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.equilibrium{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%, .8);
+    margin:20px 0;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.eth{
+    color: hsl(0, 0%, 100%, .8);
+}
+
+hr{
+    width: 100%;
+    opacity: .3;
+}
+
+footer{
+    margin: 20px 0;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    margin-right: 15px;
+}
+
+.justin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+span{
+    color: hsl(0, 0%, 100%, .8);;
+}
